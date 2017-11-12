@@ -1,0 +1,9 @@
+# path
+if [[ -d /opt/pkg/bin ]]; then
+	PATH="/opt/pkg/bin:${PATH}"
+fi
+export PATH
+
+if [[ -r ~/.bashrc ]]; then
+	source ~/.bashrc
+fi
