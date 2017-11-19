@@ -1,6 +1,6 @@
 # path
 #if [[ -d /opt/pkg/bin ]]; then
-	PATH="/opt/pkg/bin:${PATH}"
+#	PATH="/opt/pkg/bin:${PATH}"
 #fi
 #export PATH
 
