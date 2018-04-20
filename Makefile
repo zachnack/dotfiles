@@ -3,8 +3,8 @@
 all: layout git bash
 
 git:
-	@git config --global user.name "Zachary Neal"
-	@git config --global user.email "zachary.neal@icloud.com"
+	@git config --global user.name "Zachary Nack"
+	@git config --global user.email "zachary.nack@icloud.com"
 
 layout:
 	@mkdir -p ~/.config ~/.local/bin
