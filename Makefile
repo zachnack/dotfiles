@@ -1,10 +1,14 @@
-.PHONY: all layout git bash
+.PHONY: all layout git bash vim
 
 all: layout git bash
 
 git:
 	@git config --global user.name "Zachary Nack"
 	@git config --global user.email "zachary.nack@icloud.com"
+
+vim:
+	@rm -f ~/.vim
+	@ln -s $(abspath vim) ~/.vim
 
 layout:
 	@mkdir -p ~/.config ~/.local/bin
